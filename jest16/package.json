@@ -1,0 +1,18 @@
+{
+  "name": "jest16",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --no-cache --debug"
+  },
+  "dependencies": {
+    "jest": "16.0.1"
+  },
+  "jest": {
+    "rootDir": "../src",
+    "moduleNameMapper": {
+      "thing": "<rootDir>/thing"
+    }
+  }
+}
